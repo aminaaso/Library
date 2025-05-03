@@ -1,0 +1,28 @@
+Users
+- You must build a library system
+- It can be command line interface
+- There are two types of users: admin, general
+- Admin must be able to login using admin:password combo
+- You can only be logged in as single user
+- You will need to sign out from current user to access another user
+- you can sign up as a general user
+- only single admin, 0+ general users
+
+
+Books
+- book must have a name, ISBN, category [fiction, nonfiction], checkedOut
+- if checkedOut, you must track general User's ID
+- admin can see which books are checked out by which users
+- admin can force check in a checked out book
+- when general user is browsing, they cannot check out books which are already checked out.
+- Each book can be checked out for a maximum of 1 week.
+- after 1 week, book will be forced to check in
+
+
+Library
+- contains books, users, login screen
+- provides a way to sign up as general user
+- you can browse, checkout books as general user
+
+# Disclaimer: Requirements will change over time
+

@@ -7,10 +7,11 @@ Users
 - You will need to sign out from current user to access another user
 - you can sign up as a general user
 - only single admin, 0+ general users
+- User fields: id, name, userType
 
 
 Books
-- book must have a name, ISBN, category [fiction, nonfiction], checkedOut
+- book must have a title, ISBN, author, category [fiction, nonfiction], checkedOut
 - if checkedOut, you must track general User's ID
 - admin can see which books are checked out by which users
 - admin can force check in a checked out book
